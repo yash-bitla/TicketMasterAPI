@@ -1,0 +1,574 @@
+body{        
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+input[type="image"] {
+    width: 80px;
+    margin: -1px -5px;
+}
+
+.parent-div{
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.form-box{    
+    background: rgba(80, 80, 80, 0.7);
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    width: 44%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.inner-div-box{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header{
+    font-family: 'Merriweather';
+    letter-spacing: 1px;
+    font-size: 35px;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+
+.horizontal-line {
+    background-color: white;
+    margin-top: 18px;
+    height: 1px;    
+}
+
+.line-1{
+    margin-top:30px
+}
+
+label{
+    color: #60bcdb;
+    font-family: "Calibri";    
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 35px;
+    padding: 10px;  
+    margin: 7px 0 15px 0;
+    border-radius: 6px;
+    background: transparent;
+    border: 0.7px solid white;
+    color: rgb(224, 224, 224);    
+    font-family: "Calibri";
+    font-size: 18px;
+}
+
+
+.line-2{
+    display: flex;
+    margin-bottom: 9px;
+}
+
+.flex-child{
+    flex: 1;
+}
+
+input[type=number] {
+    width: 50%;
+    height: 35px;
+    padding: 10px;
+    margin: 7px 0 9px 0;
+    border-radius: 6px;
+    background: transparent;
+    border: 0.7px solid white;
+    color: white;
+    font-family: "Calibri";
+    font-size: 18px;
+}
+
+input[type=button]{
+    margin-bottom: 25px;    
+}
+
+.dropdown{
+    display: inline-block; 
+    width:100%;
+    height: 36px;
+    padding: 6px;  
+    margin: 7px 0 0 0;  
+    display:flex;
+    flex-direction:column;
+    border-radius: 6px;
+    background: transparent;
+    border: 0.7px solid white;
+    color: white;
+    font-family: "Calibri";
+    font-size: 18px;
+}
+
+option{
+    background-color: rgb(65, 64, 64);
+}
+
+.auto-detect{
+    color: rgb(206, 206, 206);    
+}
+
+.btnsearch{
+    margin-top: 20px;
+    background-color: hsl(28, 100%, 50%);
+    height:39px;
+    width:100px;
+    box-shadow: 0 3px 0 1px hsl(24, 100%, 39%);
+    color: white;
+    border: none;
+    font-family: "Calibri";
+    padding-top: 4px;
+    font-size: 19px;
+    border-radius: 5px;
+    margin-right: 3px;
+    letter-spacing: 0.3px;
+}
+
+.btnsearch:hover{
+    background-color: hsl(28, 100%, 64%);
+}
+
+.btnclear{
+    margin-top: 20px;
+    background-color: hsl(209, 70%, 43%);
+    height:37px;
+    width:90px;
+    box-shadow: 0 3px 0 1px hsl(209, 68%, 34%);
+    color: white;
+    border: none;
+    font-family: "Calibri";
+    padding-top: 3px;
+    font-size: 19px;
+    border-radius: 5px;
+    letter-spacing: 0.3px;
+}
+
+.noevents{
+    background-color: white;
+    font-family: 'calibri';
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4.5%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.row{
+    height: 40px;
+}
+
+.tableHeader{
+    background-color: rgb(230, 230, 230);
+    border: 0.5px solid;
+    border-color: black;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    padding: 15px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.eventData{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(230, 230, 230);
+    border:1px solid;
+    border-color: black;
+    /* border-spacing:1px; */
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.c{
+    border:0.5px solid;
+    border-color: rgb(0, 0, 0);
+    padding: 15px 5px;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.eventName{
+    cursor: pointer;
+}
+
+.eventName:hover{
+    color: rgb(127, 0, 255);   
+
+}
+
+.eventDetails{
+    margin-top: 60px;
+}
+
+.parentDiv{
+    background-color: rgba(80, 80, 80, 0.7);
+    backdrop-filter: blur(10px);
+    margin-left: auto;
+    margin-right: auto;    
+    width: 70%;
+    height: 550px;
+    border-radius: 15px;
+}
+
+.detailed_header{
+    text-align: center;
+    vertical-align: middle;
+    height: 115px;
+}
+
+.header_name{
+    font-size: 35px;    
+    font-family: 'calibri';
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.infoDiv{    
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30;
+    color: white;
+}
+
+.leftDiv{
+    float: left;
+    width: 40%;
+    padding: 0px 0 15px 0;
+}
+
+.flex-container{
+    height: 60px;
+    position: relative;    
+}
+
+.flex-container7{
+    height: 60px;
+    position: relative;
+    margin-top: 12px;
+}
+
+
+.rowName7{
+    height: 50%;
+    position: absolute;
+    top: 0;
+    width: 100%;  
+}
+
+.rowName{
+    height: 50%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.rowValue{
+    height: 50%;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.rowValue6{
+    height: 50%;
+    bottom: 0;
+    position: absolute;
+    width: 100%;    
+    margin-bottom: 8px;
+}
+
+.rowValue7{
+    height: 50%;
+    bottom: 0;
+    position: absolute;
+    width: 100%;    
+}
+
+.eName{
+    font-style: bold;
+    font-family: "Lato", sans-serif;
+    color: aquamarine;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+
+.eName7{
+    font-style: bold;
+    font-family: "Lato", sans-serif;
+    color: aquamarine;
+    font-size: 20px;
+    margin: 0;
+}
+
+.eValue{    
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.eValue7{    
+    font-family: "Lato", sans-serif;
+    color: rgb(80, 159, 248);
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.eValue7:hover{
+    color: rgb(127, 0, 255);
+}
+
+.t_eValue1{
+    width: 70px;
+    height: 28px;
+    background-color: green;    
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    padding-top: 1px;
+}
+
+.t_eValue2{
+    width: 90px;
+    height: 28px;
+    background-color: black;    
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    padding-top: 1px;
+}
+
+.t_eValue3{
+    width: 100px;
+    height: 28px;
+    background-color: orange;    
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    padding-top: 1px;
+}
+
+.t_eValue4{
+    width: 70px;
+    height: 28px;
+    background-color: red;    
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    padding-top: 1px;
+}
+
+
+.eText{
+    font-size: 16px;
+    padding-top: 5px;
+    margin: 0;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.rightDiv{
+    float: left;
+    width: 60%;
+    display: flex;
+    justify-content: center;    
+}
+
+.seat_image{
+    max-width: 600px;
+    height: 400px;
+}
+
+.venueDiv{
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+}
+
+.textVenue{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(199, 199, 199);
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 30px;
+    border-right: 1.5px solid rgb(180, 180, 180);
+    border-bottom: 1.5px solid rgb(180, 180, 180);
+    rotate: 45deg;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.venueDetailsDiv{
+    background-color: rgba(243, 243, 243, 1);
+    margin-left: auto;
+    margin-right: auto;    
+    width: 68%;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.venueDetails{
+    margin-top: 20px;
+}
+
+.childvenueDiv{
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.venueName{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 10px
+}
+
+.venueContent{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;    
+    display: flex;
+    background-color: inherit;
+    flex-direction: row;
+}
+
+.leftContent{
+    width: 50%;
+    border-right: 1px solid black;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightContent{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    justify-self: center;
+    padding-top: 20px;
+}
+
+.top{
+    height: 60%;    
+    display: flex;
+    flex-direction: row;
+}
+
+.down{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.venueAddress{
+    width: 40%;    
+    float: right;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-left: auto; 
+    margin-right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.venueAddressValue{
+    width: 60%;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gmap{
+    color: rgb(64, 162, 192);
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.gmap:hover{
+    color: rgb(127, 0, 255);
+}
+
+.more_events{
+    color: rgb(64, 162, 192);
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.more_events:hover{
+    color: rgb(127, 0, 255);
+}
