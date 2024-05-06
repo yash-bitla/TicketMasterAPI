@@ -1,11 +1,12 @@
 from flask import Flask, request
 import requests
 from geolib import geohash
+import os
 
 app = Flask(__name__)
 
 segmentID = {'music': "KZFzniwnSyZfZ7v7nJ", "sports": "KZFzniwnSyZfZ7v7nE", "arts & theatre":"KZFzniwnSyZfZ7v7na", "film": "KZFzniwnSyZfZ7v7nn", "miscellaneous": "KZFzniwnSyZfZ7v7n1", "theatre":"KZFzniwnSyZfZ7v7na", "default":""}
-key = "d5VaNzuQ1WyOWyuz3qHyJiwb19vjNeh3"
+key = os.getenv("key")
 
 @app.route('/')
 def root():
